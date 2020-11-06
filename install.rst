@@ -2,7 +2,7 @@
 Installing OWASP CRS
 =====================
    
-We are glad you chose OWASP CRS the premier free ModSecurity ruleset. Below you should find all the information you need to properly install CRS. If you are having problems feel free to reach out to our mailing list. You can signup at: https://lists.owasp.org/mailman/listinfo/owasp-modsecurity-core-rule-set
+We are glad you chose OWASP CRS the premier free ModSecurity ruleset. Below you should find all the information you need to properly install CRS. If you are having problems feel free to reach out to our mailing list. You can signup at: https://groups.google.com/a/owasp.org/g/modsecurity-core-rule-set-project
    
 Prerequisites
 =============
@@ -88,11 +88,11 @@ At current time of writing ModSecurity v3 is still in development. Please stay t
 Downloading OWASP CRS
 =====================
 
-Now that you know where your rules belong typically we'll want to download the OWASP CRS. The best place to get the latest copy of the ruleset will be from our Github: https://github.com/SpiderLabs/owasp-modsecurity-crs. Be careful to determine if there are any more relevant branches in development that can take advantage of the version of ModSecurity you are using. You can do this by checking the different branches on the site and looking throughout this documentation. To download a repository you can either click the '`Download Zip <https://github.com/SpiderLabs/owasp-modsecurity-crs/archive/master.zip>`_' button or your can use git clone. For instance, 
+Now that you know where your rules belong typically we'll want to download the OWASP CRS. The best place to get the latest copy of the ruleset will be from our Github: https://github.com/coreruleset/coreruleset. Be careful to determine if there are any more relevant branches in development that can take advantage of the version of ModSecurity you are using. You can do this by checking the different branches on the site and looking throughout this documentation. To download a repository you can either click the '`Download Zip <https://github.com/coreruleset/coreruleset/archive/master.zip>`_' button or your can use git clone. For instance, 
 
 .. code-block:: bash
 
-    git clone https://github.com/SpiderLabs/owasp-modsecurity-crs
+    git clone https://github.com/coreruleset/coreruleset
 
 Typically you'll end up with a folder named something similar to 'owasp-modsecurity-crs'. From here the process is surprisingly simple. Because OWASP CRS is, at its core, a set of ModSecurity configuration files (\*.conf files) all you have to do is tell ModSecurity where these CRS configuration files reside and it will do MOST of the remaining work. To do this you must use the 'Include' directive. This include directive can be used in similar places to where we used our SecRule earlier. It should be noted that OWASP CRS should be included AFTER the ModSecurity configuration rules which are available via the ModSecurity repo (at https://github.com/SpiderLabs/ModSecurity/blob/master/modsecurity.conf-recommended) which should have been configured during your inital installation. These rules will configure ModSecurity options, such as SecRuleEngine that we used earlier. This configuration file should be reveiwed and modified as desired.
 
@@ -225,7 +225,7 @@ As part of our continuing effort to provide the most user friendly rule set avai
         parser.add_argument('-b', '--branch', default="v3.0.0-rc1", type=str,
                             required=False, help='The GitHub branch you want to download.')
         parser.add_argument('-r', '--repo',
-                            default="https://github.com/SpiderLabs/owasp-modsecurity-crs",
+                            default="https://github.com/coreruleset/coreruleset",
                             type=str, required=False, help='The GitHub repository you want to use.')
         parser.add_argument('-p', '--path', default="./owasp-modsecurity-crs/rules/", type=str,
                             required=False, help='The path where the rules files should be placed')
