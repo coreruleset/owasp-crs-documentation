@@ -11,4 +11,4 @@ $ make html
 ...
 ```
 
-Alternatively, the latest version of the documentation is available at https://www.modsecurity.org/CRS/Documentation/
+Alternatively, the latest version of the documentation is available on the Core Rule Set website at https://coreruleset.org/documentation/.
