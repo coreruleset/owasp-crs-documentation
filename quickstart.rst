@@ -8,7 +8,7 @@ You'll first need to download the ruleset. Using a browser (or equivalent) visit
 
 .. code-block:: bash
 
-	wget https://github.com/SpiderLabs/owasp-modsecurity-crs/archive/master.zip
+	wget https://github.com/coreruleset/coreruleset/archive/master.zip
 
 Once this is installed extract it somewhere well known on your server. Typically this will be in the webserver directory. We are demonstrating with Apache below For information on configuring Nginx or IIS see :doc:`install`. Additionally, while it is a successful practice to make a new 'modsecurity.d' folder as outlined below, it isn't strictly necessary. The path scheme outlined is the common to RHEL based operating systems, you may have to adjust the Apache path used to match your installation.
 

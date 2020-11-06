@@ -6,7 +6,7 @@ Open Source/Free Help
 =====================
 * ModSecurity Users Mail-list (SourceForge) - http://lists.sourceforge.net/lists/listinfo/mod-security-users
 * ModSecurity Developers Mail-list (SourceForge) - http://lists.sourceforge.net/lists/listinfo/mod-security-developers
-* OWASP ModSecurity Core Rules Mail-list (OWASP) - https://lists.owasp.org/mailman/listinfo/owasp-modsecurity-core-rule-set
+* OWASP ModSecurity Core Rules Mail-list (OWASP) - https://groups.google.com/a/owasp.org/g/modsecurity-core-rule-set-project
 * You can also join the #modsecurity channel on irc.freenode.net.
 
 Commercial Help

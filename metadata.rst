@@ -2,7 +2,7 @@
 OWASP CRS Metadata
 ==================
 
-OWASP CRS 3.x includes several pieces of metadata within rules. Not every rule features all metadata but it is a continuing project where possible to update this information to the best possible level. If you see a rule without a piece of metadata that you think is warranted please open either an issue request at https://github.com/SpiderLabs/owasp-modsecurity-crs/issues or a pull request. 
+OWASP CRS 3.x includes several pieces of metadata within rules. Not every rule features all metadata but it is a continuing project where possible to update this information to the best possible level. If you see a rule without a piece of metadata that you think is warranted please open either an issue request at https://github.com/coreruleset/coreruleset/issues or a pull request. 
 
 Tags about standards
 --------------------
