@@ -54,7 +54,7 @@ Within anamoly scoring mode we are implementing the concept of Collaborative Det
 Configuring Anomaly Scoring Mode
 --------------------------------
 
-The default mode in CRS 3.x is Anomaly Scoring mode, you can verify this is your mode by checking that the SecDefaultAction line in the csr-setup.conf file usees the pass action:
+The default mode in CRS 3.x is Anomaly Scoring mode, you can verify this is your mode by checking that the SecDefaultAction line in the csr-setup.conf file uses the pass action:
 
 .. code-block:: bash
 
